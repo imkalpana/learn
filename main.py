@@ -6,19 +6,20 @@ print("")
 
 def add(x=3,y=5):
     sum = x+y
-    print("Sum of two numbers: ", sum)
+    print(f"Sum of two numbers {x}, {y}: ", sum)
 
 
-print("add default values: ", add())
-print("add 121 and 234: ",add(121, 234))
-print("add 1324 and 42346: ",add(1324,42346))
-print("add 73 and 64: ",add(73, 64))
+add()
+add(121, 234)
+add(1324,42346)
+add(73, 64)
 
 #Made a stack 
 
 print("")
 print("==== Stack ====")
 print("")
+
 stack=[]
 
 print("Stack: ",stack)
@@ -35,13 +36,41 @@ print("Stack: ",stack)
 
 #Remove an items one by one from stack
 
-pop_item=stack.pop()
+pop_item=stack.pop(-1)
 print("Stack: ",stack)
 print("Popped item: ", pop_item)
 
-stack.pop()
-print("Stack: ",stack)
+stack.pop(-1)
+print("Stack: ", stack)
 
 
+#Made a queue
+
+print("")
+print("==== Queues ====")
+print("")
+
+queue=[]
+print("Queue: ", queue)
+
+#Add Numbers in queue
+
+queue.append(4)
+queue.append(2)
+queue.append(7)
+queue.append(1)
+queue.append(8)
+
+print("Queue: ", queue)
+
+
+#Remove element from queue
+
+pop_element=queue.pop(0)
+print("Queue: ", queue)
+print("Popped element: ", pop_element)
+
+queue.pop(0)
+print("Queue: ", queue)
 
 
