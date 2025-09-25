@@ -74,3 +74,52 @@ queue.pop(0)
 print("Queue: ", queue)
 
 
+
+#Implementing liner search
+print("")
+print("==== Liner_Search ====")
+print("")
+
+def liner_search(arr=[2,4,6,2,8,5,2,9,3,5,1,7], val=1):
+    count=0
+    for i in arr:
+        if i==val:
+            print( "Found!")
+            break
+        else:
+            print("Not Found!")
+
+        count+=1
+    print(f"Found in {count} iterate")
+
+liner_search()
+
+
+
+#Implementing binary search
+print("")
+print("==== Binary_Search ====")
+print("")
+
+def binary_search(arr=[2,5,7,8,9,13,24,46,78,85,87], val=9):
+    count=0
+    left=0
+    right=len(arr)-1
+    while left<=right:
+        mid= (left+right)//2
+        count+=1
+        if arr[mid] == val:
+            print(f"Element is present at {mid} index")
+            print(f"Found in {count} iterate")
+            break
+
+        elif arr[mid] < val:
+            left = mid + 1
+
+        else:
+            right = mid -1
+
+    print("Targeted Value is not found!")
+
+
+binary_search()
