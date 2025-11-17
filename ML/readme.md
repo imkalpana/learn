@@ -1,4 +1,4 @@
-# Stating Learning ML from the MIT Open Leatning Library
+# Stating Learning ML from the MIT Open Learning Library
 
 ## Introduction 
 ### Linear Algebra with numpy lib
