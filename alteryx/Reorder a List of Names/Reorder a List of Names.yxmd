@@ -118,7 +118,7 @@ Data source: This data was mocked up on Mockaroo (https://www.mockaroo.com/)</Te
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_12772_399b37cfc8ee4c2bb1493d9aff54a442_\Engine_12772_78bb721c51ab46e1a213e838ebe8ca3d~.yxdb</TempFile>
+          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_19984_d27c17c4f8704e809e0db12d3de7dc29_\Engine_19984_aeeedb2d9eab41fba3841ba0dca72b11~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -146,7 +146,7 @@ Data source: This data was mocked up on Mockaroo (https://www.mockaroo.com/)</Te
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_12772_399b37cfc8ee4c2bb1493d9aff54a442_\Engine_12772_75f1043927904ce3b097026dd0ab8a93~.yxdb</TempFile>
+          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_19984_d27c17c4f8704e809e0db12d3de7dc29_\Engine_19984_c926cc86b79547599d3bc6bed09ec2e0~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -518,7 +518,7 @@ Query=`SampleBasic$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="173" y="617" width="289" height="165" />
+        <Position x="173" y="617" width="565" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -624,6 +624,77 @@ Query=`SampleBasic$`</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
         </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="570" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Subscriber" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Subscriber - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="474" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="F2" selected="False" />
+                <SelectField field="F3" selected="False" />
+                <SelectField field="F4" selected="False" />
+                <SelectField field="1" selected="False" />
+                <SelectField field="2" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="654" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_19984_d27c17c4f8704e809e0db12d3de7dc29_\Engine_19984_098d14db1e694529a62bb5cebbc39d8f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="36">
@@ -668,7 +739,7 @@ Query=`SampleBasic$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="68">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="173" y="785" width="217" height="225" />
+        <Position x="173" y="785" width="409" height="225" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -705,7 +776,7 @@ Query=`SampleBasic$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="66">
           <GuiSettings>
-            <Position x="306" y="846" />
+            <Position x="306" y="834" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -728,11 +799,54 @@ Query=`SampleBasic$`</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="390" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Subscriber" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Subscriber - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="498" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_19984_d27c17c4f8704e809e0db12d3de7dc29_\Engine_19984_43fe9cdc4e684bfe953e845de1a47e73~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
       </ChildNodes>
     </Node>
@@ -763,8 +877,28 @@ Query=`SampleBasic$`</DefaultAnnotationText>
       <Destination ToolID="63" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="64" Connection="Output" />
       <Destination ToolID="66" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output26" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -789,7 +923,7 @@ Query=`SampleBasic$`</DefaultAnnotationText>
     <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>challenge_348_start_file_desktop_user</Name>
+      <Name>Reorder a List of Names</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
