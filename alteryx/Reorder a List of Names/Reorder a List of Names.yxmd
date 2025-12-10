@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="510" width="204" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="660" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Do you have to reformat lists because the last name and first name are listed in a different order?
+
+In this weekly challenge, you need to rearrange an improperly formatted list of subscribers. Some of the subscribers’ names are listed with the last name(s) followed by a comma, and then the first name(s). 
+
+Your goal is to reorder the list with the first name(s) followed by the last name(s), and put the list in alphabetical order. For example, the subscriber “BORROEL GOMEZ, JUANA” should be listed as “JUANA BORROEL GOMEZ” with no punctuation. 
+
+Note that some subscribers can have more than one first name or last name.
+
+
+
+Data source: This data was mocked up on Mockaroo (https://www.mockaroo.com/)</Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="66" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #348</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="2" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="510" width="192" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_12772_399b37cfc8ee4c2bb1493d9aff54a442_\Engine_12772_78bb721c51ab46e1a213e838ebe8ca3d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\kalpa\AppData\Local\Temp\Alteryx\Engine_12772_399b37cfc8ee4c2bb1493d9aff54a442_\Engine_12772_75f1043927904ce3b097026dd0ab8a93~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Subscribers.xlsx|||`SampleBasic$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Subscribers.xlsx
+Query=`SampleBasic$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Subscriber" size="255" source="File: C:\Users\kalpa\OneDrive - ALTIUS INFRA\Desktop\alteryx_prep\weekly_challenges\challenge 8\Reorder a List of Names\Subscribers.xlsx|||`SampleBasic$`" type="V_String" />
+            <Field name="F2" source="File: C:\Users\kalpa\OneDrive - ALTIUS INFRA\Desktop\alteryx_prep\weekly_challenges\challenge 8\Reorder a List of Names\Subscribers.xlsx|||`SampleBasic$`" type="Double" />
+            <Field name="F3" source="File: C:\Users\kalpa\OneDrive - ALTIUS INFRA\Desktop\alteryx_prep\weekly_challenges\challenge 8\Reorder a List of Names\Subscribers.xlsx|||`SampleBasic$`" type="Double" />
+            <Field name="F4" source="File: C:\Users\kalpa\OneDrive - ALTIUS INFRA\Desktop\alteryx_prep\weekly_challenges\challenge 8\Reorder a List of Names\Subscribers.xlsx|||`SampleBasic$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="534" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="99" />
+          <Fields>
+            <Field name="Subscriber" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ADRIAN MAXIMILI OROZCO</c>
+            </r>
+            <r>
+              <c>ADRIAN RODRIGUEZ</c>
+            </r>
+            <r>
+              <c>ADRIANA QUINONES</c>
+            </r>
+            <r>
+              <c>AIDE BERINICE RODRIGUEZ</c>
+            </r>
+            <r>
+              <c>ALBERT JIMENEZ</c>
+            </r>
+            <r>
+              <c>ALEJANDRO CAMPOS</c>
+            </r>
+            <r>
+              <c>ALEXANDRA NIEVES</c>
+            </r>
+            <r>
+              <c>ALEXIS NICOLE GARCIA</c>
+            </r>
+            <r>
+              <c>ALLAN SHANLEY</c>
+            </r>
+            <r>
+              <c>AMELIA N CADENA</c>
+            </r>
+            <r>
+              <c>ANA ISABEL CISNEROS</c>
+            </r>
+            <r>
+              <c>ANA MARTINEZ</c>
+            </r>
+            <r>
+              <c>ANDRES RICARDO ALVARADO</c>
+            </r>
+            <r>
+              <c>ANGEL ALVARADO</c>
+            </r>
+            <r>
+              <c>ANGELA YUNDA</c>
+            </r>
+            <r>
+              <c>ANGELITA CASTANEDA</c>
+            </r>
+            <r>
+              <c>ARACELI DAMIAN DONJUAN</c>
+            </r>
+            <r>
+              <c>ARMANDO MARTINEZ</c>
+            </r>
+            <r>
+              <c>BELINDA MATA</c>
+            </r>
+            <r>
+              <c>BERTHA A CENICEROS</c>
+            </r>
+            <r>
+              <c>BRENDA E SANCHEZ</c>
+            </r>
+            <r>
+              <c>BRIANA S CATLEY</c>
+            </r>
+            <r>
+              <c>CESAR CARDENAS</c>
+            </r>
+            <r>
+              <c>CHRISTINA VASQUEZ</c>
+            </r>
+            <r>
+              <c>CONSUELO MALDONADO</c>
+            </r>
+            <r>
+              <c>CRISTINA ALVARADO</c>
+            </r>
+            <r>
+              <c>CYNTHIA ANN MARTINEZ</c>
+            </r>
+            <r>
+              <c>DANIEL ALVAREZ JR</c>
+            </r>
+            <r>
+              <c>DOMINGA BELTRAN</c>
+            </r>
+            <r>
+              <c>EDGAR ADRIAN LIRA</c>
+            </r>
+            <r>
+              <c>EDGAR RODRIGUEZ</c>
+            </r>
+            <r>
+              <c>EDUARDO GALLEGOS</c>
+            </r>
+            <r>
+              <c>ELIA ELIZABETH GONZALEZ</c>
+            </r>
+            <r>
+              <c>ELIZABETH MARIE GUZMAN</c>
+            </r>
+            <r>
+              <c>ELSA ESCARCEGA</c>
+            </r>
+            <r>
+              <c>ELVIA VILLALOBOS</c>
+            </r>
+            <r>
+              <c>EMMANUEL CARRASCO</c>
+            </r>
+            <r>
+              <c>FELIX SEGURA CANIZARES</c>
+            </r>
+            <r>
+              <c>FRANCISCO R PERU</c>
+            </r>
+            <r>
+              <c>FREIDY SEGURA CANIZARES</c>
+            </r>
+            <r>
+              <c>GABRIEL PEREZ</c>
+            </r>
+            <r>
+              <c>GABRIELA ZARATE MURILLO</c>
+            </r>
+            <r>
+              <c>GINA GALO</c>
+            </r>
+            <r>
+              <c>GLADIS YESENIA VELASCO</c>
+            </r>
+            <r>
+              <c>GLORIA GUADALUPE GONZALEZ RAMI</c>
+            </r>
+            <r>
+              <c>GUADALUPE M SANDOVAL</c>
+            </r>
+            <r>
+              <c>GUSTAVO ARMANDO RODRIGUEZ</c>
+            </r>
+            <r>
+              <c>HECTOR F VIVANCO</c>
+            </r>
+            <r>
+              <c>JAYLEEN CASTANEDA</c>
+            </r>
+            <r>
+              <c>JEFF JESSE PEREZ</c>
+            </r>
+            <r>
+              <c>JESUS AREVALO III</c>
+            </r>
+            <r>
+              <c>JESUS BRIONES</c>
+            </r>
+            <r>
+              <c>JOSEFINA SOLIS</c>
+            </r>
+            <r>
+              <c>JUAN C GARCIA</c>
+            </r>
+            <r>
+              <c>JUAN G VILLARREAL</c>
+            </r>
+            <r>
+              <c>JUAN PATRICIO RIVERA</c>
+            </r>
+            <r>
+              <c>JUAN RICARDO RAMIREZ</c>
+            </r>
+            <r>
+              <c>JUANA BORROEL GOMEZ</c>
+            </r>
+            <r>
+              <c>JUDITH TORRES</c>
+            </r>
+            <r>
+              <c>KEVIN CORIA</c>
+            </r>
+            <r>
+              <c>KYLE KURCZYN</c>
+            </r>
+            <r>
+              <c>LIZA ANN MARTINEZ</c>
+            </r>
+            <r>
+              <c>LORENA G CAMPOS</c>
+            </r>
+            <r>
+              <c>LORENZA GARCIA</c>
+            </r>
+            <r>
+              <c>LUIS EDUARDO LOPEZ</c>
+            </r>
+            <r>
+              <c>MAI PHAM</c>
+            </r>
+            <r>
+              <c>MARIA ROMANOS</c>
+            </r>
+            <r>
+              <c>MARIA ROMERO</c>
+            </r>
+            <r>
+              <c>MARIA SOCORRO GRANADA</c>
+            </r>
+            <r>
+              <c>MARIO ALBERTO MARTINEZ</c>
+            </r>
+            <r>
+              <c>MARITZA VALENZUELA</c>
+            </r>
+            <r>
+              <c>MARTIN CASTANEDA</c>
+            </r>
+            <r>
+              <c>MAURICIO AGUIRRE</c>
+            </r>
+            <r>
+              <c>MAYRA P HERNANDEZ OLIVARES</c>
+            </r>
+            <r>
+              <c>MIGUEL A VELOZ</c>
+            </r>
+            <r>
+              <c>MIGUEL ORTEGA</c>
+            </r>
+            <r>
+              <c>MIRIAM LOPEZ</c>
+            </r>
+            <r>
+              <c>MOISES ESTRADA JR</c>
+            </r>
+            <r>
+              <c>MONICA RAQUEL RODRIGUEZ</c>
+            </r>
+            <r>
+              <c>NAOMI GOMEZ</c>
+            </r>
+            <r>
+              <c>NATALIE UGALDE</c>
+            </r>
+            <r>
+              <c>NICOLASA JUAREZ LARA</c>
+            </r>
+            <r>
+              <c>OSCAR DANIEL DE LEON</c>
+            </r>
+            <r>
+              <c>OSCAR GUERRERO</c>
+            </r>
+            <r>
+              <c>OSCAR R LARSON</c>
+            </r>
+            <r>
+              <c>RAMON AGUILERA</c>
+            </r>
+            <r>
+              <c>RAUL GOMEZ</c>
+            </r>
+            <r>
+              <c>RIGOBERTO REYES</c>
+            </r>
+            <r>
+              <c>ROBERTO GONZALEZ</c>
+            </r>
+            <r>
+              <c>ROGELIO ARTURO ESPINOZA</c>
+            </r>
+            <r>
+              <c>ROLANDO GILL SEGURA</c>
+            </r>
+            <r>
+              <c>ROSALINDA COBOS</c>
+            </r>
+            <r>
+              <c>RUBEN CANDIA</c>
+            </r>
+            <r>
+              <c>SELENA DE LEON</c>
+            </r>
+            <r>
+              <c>VALERIE LUNA</c>
+            </r>
+            <r>
+              <c>VERONICA LOPEZ ARTEAGA</c>
+            </r>
+            <r>
+              <c>YAZBETH ABDALA</c>
+            </r>
+            <r>
+              <c>YOLISSA M ORTIZ</c>
+            </r>
+            <r>
+              <c>YTZEL JUDITH NAVARRO</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="173" y="617" width="289" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solution 1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Solution 1</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="198" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Subscriber</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="," />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="294" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[2] + ' ' + [1]" field="Subscriber" size="255" type="V_String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Subscriber = [2] + ' ' + [1]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+            <Position x="378" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RemoveNullRows value="True" />
+              <RemoveNullColumns value="True" />
+              <RemoveTabsLineBreaksAndDuplicates value="True" />
+              <RemoveLeadingAndTrailingWhitespace value="True" />
+              <RemoveAllWhitespaces value="False" />
+              <RemoveHTMLTags value="False" />
+              <RemoveInvisibleCharacters value="False" />
+              <Fields>
+                <Field value="Subscriber" selected="True" />
+                <Field value="F2" selected="True" />
+                <Field value="F3" selected="True" />
+                <Field value="F4" selected="True" />
+                <Field value="1" selected="True" />
+                <Field value="2" selected="True" />
+                <Field value="*Unknown" selected="True" />
+              </Fields>
+              <RemoveLetters value="False" />
+              <RemoveNumbers value="False" />
+              <RemovePunctuation value="False" />
+              <Letters value="" />
+              <Numbers value="" />
+              <Punctuations value="" />
+              <Exceptions value="" />
+              <Checkbox_ReplaceStringColumns value="True" />
+              <Checkbox_ReplaceNumericColumns value="False" />
+              <radioButton_ReplaceNullwithBlanks value="False" />
+              <radioButton_ReplaceBlankswithNulls value="True" />
+              <radioButton_ReplaceNullwithZero value="True" />
+              <radioButton_ReplaceZerowithNulls value="False" />
+              <ReplaceWithBlanks value="Inverse" />
+              <ReplaceWithZero value="False" />
+              <CheckBox_ModifyCase value="False" />
+              <ModifyCase value="none" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="56" y="992" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="66" y="1026" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="173" y="785" width="217" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solution 2</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Solution 2</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="198" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF Contains([Subscriber], ',') THEN Trim(GetRight([Subscriber], ','),' ') + ' ' + Trim(GetLeft([Subscriber], ','), ' ') ELSE [Subscriber] ENDIF" field="Subscriber" size="255" type="V_String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Subscriber = IF Contains([Subscriber], ',') THEN Trim(GetRight([Subscriber], ','...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings>
+            <Position x="306" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">True</Value>
+              <Value name="List Box (11)">"Subscriber","F2","F3","F4"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="66" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_348_start_file_desktop_user</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="595b1115-79a4-4f4e-b06d-743fbd18b921" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="595b1115-79a4-4f4e-b06d-743fbd18b921" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
