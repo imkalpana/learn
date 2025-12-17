@@ -1,5 +1,3 @@
-import re
-
 
 medical_records = [
     {
